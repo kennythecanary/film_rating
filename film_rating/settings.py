@@ -117,7 +117,7 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.1/howto/static-files/
 
-STATIC_URL = 'static/'
+STATIC_URL = '/static/'
 # Following settings only make sense in production and may break development environments.
 if not DEBUG:    # Tell Django to copy statics to the `static files` directory
     # in your application directory on Render.
