@@ -6,7 +6,6 @@ authors = ["kennythecanary <shirke@mail.ru>"]
 
 [tool.poetry.dependencies]
 python = "^3.10"
-pip = "24.2"
 gunicorn = "^23.0.0"
 dj-database-url = "^2.2.0"
 psycopg2-binary = "^2.9.9"
