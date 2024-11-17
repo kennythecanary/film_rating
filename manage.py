@@ -19,22 +19,4 @@ def main():
 
 
 if __name__ == '__main__':
-	""" Uncomment for Bert prediction."""
-
-	""" import numpy as np
-	import pandas as pd
-	import spacy
-	nlp = spacy.load("en_core_web_sm")
-	import nltk
-	nltk.download("stopwords")
-	from nltk.corpus import stopwords
-	stop_words = stopwords.words("english")
-	import datasets
-	from datasets import Dataset
-	import transformers
-	from transformers import BertTokenizer, AutoConfig, AutoModel, modeling_outputs
-	import torch
-	import torch.nn as nn
-	from film_rating.models.model import ImdbDataset, ImdbBertClassifier, Classifier """
-	
 	main()
